@@ -13,7 +13,7 @@ document.querySelector('button').addEventListener('click', async e => {
   document.body.style.cursor = 'wait'
   document.querySelector('button').style.cursor = 'wait'
   console.log('gello')
-  const url = 'http://localhost:8080'
+  const url = 'https://compscrapper.herokuapp.com/'
   var headers = {}
 
   fetch(url, {
