@@ -28,7 +28,7 @@ document.querySelector('button').addEventListener('click', async e => {
       return response.json()
     })
     .then(data => {
-      downloadObjectAsJson(data, 'competences')
+      downloadObjectAsJson(data, 'competencesJson')
       console.log(data)
       document.body.style.cursor = 'pointer'
       document.querySelector('button').style.cursor = ''
